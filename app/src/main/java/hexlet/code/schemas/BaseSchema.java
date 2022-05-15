@@ -11,6 +11,10 @@ public class BaseSchema<T> {
         rules.add(predicate);
     }
 
+    /**
+     * @param parameter
+     * @return boolean
+     */
     public boolean isValid(Object parameter) {
         for (Predicate rule: rules) {
             if (!rule.test(parameter)) {
