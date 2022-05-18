@@ -7,6 +7,10 @@ build/
 build
 
 .idea/
+.idea
+
+.ideaOld/
+.ideaOld
 
 **/logs/
 
